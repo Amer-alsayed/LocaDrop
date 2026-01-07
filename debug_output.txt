@@ -1,0 +1,444 @@
+STDOUT:
+Initialized native services in: C:\Users\pavillion\.gradle\native
+Initialized jansi services in: C:\Users\pavillion\.gradle\native
+The client will now receive all logging from the daemon (pid: 24280). The daemon log file: C:\Users\pavillion\.gradle\daemon\9.0-milestone-1\daemon-24280.out.log
+Starting 20th build in daemon [uptime: 13 mins 14.139 secs, performance: 99%, GC rate: 0.00/s, heap usage: 0% of 2 GiB]
+Using 12 worker leases.
+Now considering [C:\Users\pavillion\Downloads\airdrop\android] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file 'C:\Users\pavillion\Downloads\airdrop\android\settings.gradle.kts'.
+Projects loaded. Root project using build file 'C:\Users\pavillion\Downloads\airdrop\android\build.gradle.kts'.
+Included projects: [root project 'AirDropClone', project ':app']
+
+> Configure project :
+Evaluating root project 'AirDropClone' using build file 'C:\Users\pavillion\Downloads\airdrop\android\build.gradle.kts'.
+Resolved plugin [id: 'com.android.application', version: '8.2.0', apply: false]
+Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '1.9.0', apply: false]
+
+> Configure project :app
+Evaluating project ':app' using build file 'C:\Users\pavillion\Downloads\airdrop\android\app\build.gradle.kts'.
+Resolved plugin [id: 'com.android.application', version: '8.2.0']
+Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '1.9.0']
+Using default execution profile
+Using Kotlin Gradle Plugin gradle81 variant
+All projects evaluated.
+Task name matched 'assembleRelease'
+Selected primary task 'assembleRelease' from project :
+Tasks to be executed: [task ':app:buildKotlinToolingMetadata', task ':app:preBuild', task ':app:preReleaseBuild', task ':app:checkReleaseAarMetadata', task ':app:generateReleaseResValues', task ':app:mapReleaseSourceSetPaths', task ':app:generateReleaseResources', task ':app:mergeReleaseResources', task ':app:packageReleaseResources', task ':app:parseReleaseLocalResources', task ':app:createReleaseCompatibleScreenManifests', task ':app:extractDeepLinksRelease', task ':app:processReleaseMainManifest', task ':app:processReleaseManifest', task ':app:processReleaseManifestForPackage', task ':app:processReleaseResources', task ':app:compileReleaseKotlin', task ':app:javaPreCompileRelease', task ':app:compileReleaseJavaWithJavac', task ':app:extractProguardFiles', task ':app:generateReleaseLintVitalReportModel', task ':app:lintVitalAnalyzeRelease', task ':app:lintVitalReportRelease', task ':app:lintVitalRelease', task ':app:mergeReleaseJniLibFolders', task ':app:mergeReleaseNativeLibs', task ':app:stripReleaseDebugSymbols', task ':app:extractReleaseNativeSymbolTables', task ':app:mergeReleaseNativeDebugMetadata', task ':app:checkReleaseDuplicateClasses', task ':app:dexBuilderRelease', task ':app:desugarReleaseFileDependencies', task ':app:mergeExtDexRelease', task ':app:mergeDexRelease', task ':app:mergeReleaseArtProfile', task ':app:mergeReleaseGlobalSynthetics', task ':app:compileReleaseArtProfile', task ':app:mergeReleaseShaders', task ':app:compileReleaseShaders', task ':app:generateReleaseAssets', task ':app:mergeReleaseAssets', task ':app:compressReleaseAssets', task ':app:processReleaseJavaRes', task ':app:mergeReleaseJavaResource', task ':app:optimizeReleaseResources', task ':app:collectReleaseDependencies', task ':app:sdkReleaseDependencyData', task ':app:validateSigningRelease', task ':app:writeReleaseAppMetadata', task ':app:writeReleaseSigningConfigVersions', task ':app:packageRelease', task ':app:createReleaseApkListingFileRedirect', task ':app:assembleRelease']
+Tasks that were excluded: []
+Resolve mutations for :app:buildKotlinToolingMetadata (Thread[Execution worker,5,main]) started.
+:app:buildKotlinToolingMetadata (Thread[Execution worker Thread 5,5,main]) started.
+
+> Task :app:buildKotlinToolingMetadata UP-TO-DATE
+Caching disabled for task ':app:buildKotlinToolingMetadata' because:
+  Build cache is disabled
+  Caching has not been enabled for the task
+Skipping task ':app:buildKotlinToolingMetadata' as it is up-to-date.
+Resolve mutations for :app:preBuild (Thread[Execution worker Thread 5,5,main]) started.
+:app:preBuild (Thread[Execution worker Thread 9,5,main]) started.
+
+> Task :app:preBuild UP-TO-DATE
+Skipping task ':app:preBuild' as it has no actions.
+Resolve mutations for :app:preReleaseBuild (Thread[Execution worker Thread 9,5,main]) started.
+:app:preReleaseBuild (Thread[Execution worker Thread 6,5,main]) started.
+
+> Task :app:preReleaseBuild UP-TO-DATE
+Skipping task ':app:preReleaseBuild' as it has no actions.
+Resolve mutations for :app:checkReleaseAarMetadata (Thread[Execution worker Thread 6,5,main]) started.
+:app:checkReleaseAarMetadata (Thread[Execution worker Thread 6,5,main]) started.
+
+> Task :app:checkReleaseAarMetadata UP-TO-DATE
+Caching disabled for task ':app:checkReleaseAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:checkReleaseAarMetadata' as it is up-to-date.
+Resolve mutations for :app:generateReleaseResValues (Thread[Execution worker Thread 6,5,main]) started.
+:app:generateReleaseResValues (Thread[Execution worker Thread 6,5,main]) started.
+
+> Task :app:generateReleaseResValues UP-TO-DATE
+Caching disabled for task ':app:generateReleaseResValues' because:
+  Build cache is disabled
+Skipping task ':app:generateReleaseResValues' as it is up-to-date.
+Resolve mutations for :app:mapReleaseSourceSetPaths (Thread[Execution worker Thread 6,5,main]) started.
+:app:mapReleaseSourceSetPaths (Thread[Execution worker Thread 6,5,main]) started.
+
+> Task :app:mapReleaseSourceSetPaths UP-TO-DATE
+Caching disabled for task ':app:mapReleaseSourceSetPaths' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:mapReleaseSourceSetPaths' as it is up-to-date.
+Resolve mutations for :app:generateReleaseResources (Thread[Execution worker Thread 6,5,main]) started.
+:app:generateReleaseResources (Thread[Execution worker Thread 6,5,main]) started.
+
+> Task :app:generateReleaseResources UP-TO-DATE
+Skipping task ':app:generateReleaseResources' as it has no actions.
+Resolve mutations for :app:mergeReleaseResources (Thread[Execution worker Thread 6,5,main]) started.
+:app:mergeReleaseResources (Thread[Execution worker Thread 6,5,main]) started.
+Resolve mutations for :app:packageReleaseResources (Thread[Execution worker Thread 11,5,main]) started.
+:app:packageReleaseResources (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :app:packageReleaseResources UP-TO-DATE
+Caching disabled for task ':app:packageReleaseResources' because:
+  Build cache is disabled
+Skipping task ':app:packageReleaseResources' as it is up-to-date.
+Resolve mutations for :app:parseReleaseLocalResources (Thread[Execution worker Thread 11,5,main]) started.
+:app:parseReleaseLocalResources (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :app:parseReleaseLocalResources UP-TO-DATE
+Caching disabled for task ':app:parseReleaseLocalResources' because:
+  Build cache is disabled
+Skipping task ':app:parseReleaseLocalResources' as it is up-to-date.
+Resolve mutations for :app:createReleaseCompatibleScreenManifests (Thread[Execution worker Thread 11,5,main]) started.
+:app:createReleaseCompatibleScreenManifests (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :app:createReleaseCompatibleScreenManifests UP-TO-DATE
+Caching disabled for task ':app:createReleaseCompatibleScreenManifests' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:createReleaseCompatibleScreenManifests' as it is up-to-date.
+Resolve mutations for :app:extractDeepLinksRelease (Thread[Execution worker Thread 11,5,main]) started.
+:app:extractDeepLinksRelease (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :app:extractDeepLinksRelease UP-TO-DATE
+Caching disabled for task ':app:extractDeepLinksRelease' because:
+  Build cache is disabled
+Skipping task ':app:extractDeepLinksRelease' as it is up-to-date.
+Resolve mutations for :app:processReleaseMainManifest (Thread[Execution worker Thread 11,5,main]) started.
+:app:processReleaseMainManifest (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :app:processReleaseMainManifest UP-TO-DATE
+Caching disabled for task ':app:processReleaseMainManifest' because:
+  Build cache is disabled
+Skipping task ':app:processReleaseMainManifest' as it is up-to-date.
+Resolve mutations for :app:processReleaseManifest (Thread[Execution worker Thread 11,5,main]) started.
+:app:processReleaseManifest (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :app:processReleaseManifest UP-TO-DATE
+Caching disabled for task ':app:processReleaseManifest' because:
+  Build cache is disabled
+Skipping task ':app:processReleaseManifest' as it is up-to-date.
+Resolve mutations for :app:processReleaseManifestForPackage (Thread[Execution worker Thread 11,5,main]) started.
+:app:processReleaseManifestForPackage (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :app:processReleaseManifestForPackage UP-TO-DATE
+Custom actions are attached to task ':app:processReleaseManifestForPackage'.
+Caching disabled for task ':app:processReleaseManifestForPackage' because:
+  Build cache is disabled
+Skipping task ':app:processReleaseManifestForPackage' as it is up-to-date.
+Resolve mutations for :app:javaPreCompileRelease (Thread[Execution worker Thread 11,5,main]) started.
+:app:javaPreCompileRelease (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :app:javaPreCompileRelease UP-TO-DATE
+Caching disabled for task ':app:javaPreCompileRelease' because:
+  Build cache is disabled
+Skipping task ':app:javaPreCompileRelease' as it is up-to-date.
+Resolve mutations for :app:extractProguardFiles (Thread[Execution worker Thread 11,5,main]) started.
+:app:extractProguardFiles (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :app:extractProguardFiles UP-TO-DATE
+Caching disabled for task ':app:extractProguardFiles' because:
+  Build cache is disabled
+  Tasks that execute quickly usually do not benefit from caching.
+Skipping task ':app:extractProguardFiles' as it is up-to-date.
+Resolve mutations for :app:mergeReleaseJniLibFolders (Thread[Execution worker Thread 4,5,main]) started.
+:app:mergeReleaseJniLibFolders (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :app:mergeReleaseJniLibFolders UP-TO-DATE
+Caching disabled for task ':app:mergeReleaseJniLibFolders' because:
+  Build cache is disabled
+Skipping task ':app:mergeReleaseJniLibFolders' as it is up-to-date.
+Resolve mutations for :app:mergeReleaseNativeLibs (Thread[Execution worker Thread 4,5,main]) started.
+:app:mergeReleaseNativeLibs (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :app:mergeReleaseNativeLibs NO-SOURCE
+Skipping task ':app:mergeReleaseNativeLibs' as it has no source files and no previous output files.
+Resolve mutations for :app:stripReleaseDebugSymbols (Thread[Execution worker Thread 4,5,main]) started.
+:app:stripReleaseDebugSymbols (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :app:stripReleaseDebugSymbols NO-SOURCE
+Skipping task ':app:stripReleaseDebugSymbols' as it has no source files and no previous output files.
+Resolve mutations for :app:extractReleaseNativeSymbolTables (Thread[Execution worker Thread 4,5,main]) started.
+:app:extractReleaseNativeSymbolTables (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :app:extractReleaseNativeSymbolTables NO-SOURCE
+Skipping task ':app:extractReleaseNativeSymbolTables' as it has no source files and no previous output files.
+Resolve mutations for :app:mergeReleaseNativeDebugMetadata (Thread[Execution worker Thread 4,5,main]) started.
+:app:mergeReleaseNativeDebugMetadata (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
+Skipping task ':app:mergeReleaseNativeDebugMetadata' as it has no source files and no previous output files.
+Resolve mutations for :app:checkReleaseDuplicateClasses (Thread[Execution worker Thread 4,5,main]) started.
+:app:checkReleaseDuplicateClasses (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :app:checkReleaseDuplicateClasses UP-TO-DATE
+Caching disabled for task ':app:checkReleaseDuplicateClasses' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:checkReleaseDuplicateClasses' as it is up-to-date.
+Resolve mutations for :app:desugarReleaseFileDependencies (Thread[Execution worker Thread 11,5,main]) started.
+:app:desugarReleaseFileDependencies (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :app:desugarReleaseFileDependencies UP-TO-DATE
+Caching disabled for task ':app:desugarReleaseFileDependencies' because:
+  Build cache is disabled
+Skipping task ':app:desugarReleaseFileDependencies' as it is up-to-date.
+Resolve mutations for :app:mergeExtDexRelease (Thread[Execution worker Thread 11,5,main]) started.
+:app:mergeExtDexRelease (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :app:mergeExtDexRelease UP-TO-DATE
+Caching disabled for task ':app:mergeExtDexRelease' because:
+  Build cache is disabled
+Skipping task ':app:mergeExtDexRelease' as it is up-to-date.
+Resolve mutations for :app:mergeReleaseArtProfile (Thread[Execution worker Thread 11,5,main]) started.
+:app:mergeReleaseArtProfile (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :app:mergeReleaseArtProfile UP-TO-DATE
+Caching disabled for task ':app:mergeReleaseArtProfile' because:
+  Build cache is disabled
+  Tasks that merge files into a directory/jar without further processing usually do not benefit from caching. Also, their outputs are usually large, which would consume a lot of space when cached.
+Skipping task ':app:mergeReleaseArtProfile' as it is up-to-date.
+Resolve mutations for :app:mergeReleaseShaders (Thread[Execution worker Thread 11,5,main]) started.
+:app:mergeReleaseShaders (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :app:mergeReleaseShaders UP-TO-DATE
+Caching disabled for task ':app:mergeReleaseShaders' because:
+  Build cache is disabled
+Skipping task ':app:mergeReleaseShaders' as it is up-to-date.
+Resolve mutations for :app:compileReleaseShaders (Thread[Execution worker Thread 11,5,main]) started.
+:app:compileReleaseShaders (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :app:compileReleaseShaders NO-SOURCE
+Skipping task ':app:compileReleaseShaders' as it has no source files and no previous output files.
+Resolve mutations for :app:generateReleaseAssets (Thread[Execution worker Thread 11,5,main]) started.
+:app:generateReleaseAssets (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :app:generateReleaseAssets UP-TO-DATE
+Skipping task ':app:generateReleaseAssets' as it has no actions.
+Resolve mutations for :app:mergeReleaseAssets (Thread[Execution worker Thread 11,5,main]) started.
+:app:mergeReleaseAssets (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :app:mergeReleaseAssets UP-TO-DATE
+Caching disabled for task ':app:mergeReleaseAssets' because:
+  Build cache is disabled
+Skipping task ':app:mergeReleaseAssets' as it is up-to-date.
+Resolve mutations for :app:compressReleaseAssets (Thread[Execution worker Thread 11,5,main]) started.
+:app:compressReleaseAssets (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :app:compressReleaseAssets UP-TO-DATE
+Caching disabled for task ':app:compressReleaseAssets' because:
+  Build cache is disabled
+Skipping task ':app:compressReleaseAssets' as it is up-to-date.
+Resolve mutations for :app:collectReleaseDependencies (Thread[Execution worker Thread 11,5,main]) started.
+:app:collectReleaseDependencies (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :app:collectReleaseDependencies UP-TO-DATE
+Caching disabled for task ':app:collectReleaseDependencies' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:collectReleaseDependencies' as it is up-to-date.
+Resolve mutations for :app:sdkReleaseDependencyData (Thread[Execution worker Thread 11,5,main]) started.
+:app:sdkReleaseDependencyData (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :app:sdkReleaseDependencyData
+Caching disabled for task ':app:sdkReleaseDependencyData' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Task ':app:sdkReleaseDependencyData' is not up-to-date because:
+  No history is available.
+Resolve mutations for :app:validateSigningRelease (Thread[Execution worker Thread 11,5,main]) started.
+:app:validateSigningRelease (Thread[included builds,5,main]) started.
+
+> Task :app:mergeReleaseResources FAILED
+Caching disabled for task ':app:mergeReleaseResources' because:
+  Build cache is disabled
+Task ':app:mergeReleaseResources' is not up-to-date because:
+  Task has failed previously.
+The input changes require a full rebuild for incremental task ':app:mergeReleaseResources'.
+[MergeResources] Inputs are non-incremental full task action.
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-hi\values-hi.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-hi_values-hi.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values\values.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values_values.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-pt\values-pt.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-pt_values-pt.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-w360dp-port-v13\values-w360dp-port-v13.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-w360dp-port-v13_values-w360dp-port-v13.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-watch-v21\values-watch-v21.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-watch-v21_values-watch-v21.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-v21\values-v21.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-v21_values-v21.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-in\values-in.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-in_values-in.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-watch-v20\values-watch-v20.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-watch-v20_values-watch-v20.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-af\values-af.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-af_values-af.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-hr\values-hr.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-hr_values-hr.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-es-rUS\values-es-rUS.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-es-rUS_values-es-rUS.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-v23\values-v23.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-v23_values-v23.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-w320dp-land-v13\values-w320dp-land-v13.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-w320dp-land-v13_values-w320dp-land-v13.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-hu\values-hu.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-hu_values-hu.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-ja\values-ja.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-ja_values-ja.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-v28\values-v28.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-v28_values-v28.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-ro\values-ro.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-ro_values-ro.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-hy\values-hy.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-hy_values-hy.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-sk\values-sk.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-sk_values-sk.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-sw600dp-v13\values-sw600dp-v13.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-sw600dp-v13_values-sw600dp-v13.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-h480dp-land-v13\values-h480dp-land-v13.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-h480dp-land-v13_values-h480dp-land-v13.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-sl\values-sl.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-sl_values-sl.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-zh-rHK\values-zh-rHK.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-zh-rHK_values-zh-rHK.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-is\values-is.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-is_values-is.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-si\values-si.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-si_values-si.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-v34\values-v34.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-v34_values-v34.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-ky\values-ky.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-ky_values-ky.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-v25\values-v25.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-v25_values-v25.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-v22\values-v22.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-v22_values-v22.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-sw\values-sw.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-sw_values-sw.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-ta\values-ta.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-ta_values-ta.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-pt-rBR\values-pt-rBR.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-pt-rBR_values-pt-rBR.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-be\values-be.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-be_values-be.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-ru\values-ru.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-ru_values-ru.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-en-rAU\values-en-rAU.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-en-rAU_values-en-rAU.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-de\values-de.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-de_values-de.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-lo\values-lo.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-lo_values-lo.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-sq\values-sq.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-sq_values-sq.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-mn\values-mn.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-mn_values-mn.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-h320dp-port-v13\values-h320dp-port-v13.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-h320dp-port-v13_values-h320dp-port-v13.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-v16\values-v16.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-v16_values-v16.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-fr-rCA\values-fr-rCA.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-fr-rCA_values-fr-rCA.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-ca\values-ca.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-ca_values-ca.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-v18\values-v18.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-v18_values-v18.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-uz\values-uz.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-uz_values-uz.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-it\values-it.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-it_values-it.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-w400dp-port-v13\values-w400dp-port-v13.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-w400dp-port-v13_values-w400dp-port-v13.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-b+sr+Latn\values-b+sr+Latn.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-b+sr+Latn_values-b+sr+Latn.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-large-v4\values-large-v4.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-large-v4_values-large-v4.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-cs\values-cs.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-cs_values-cs.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-port\values-port.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-port_values-port.arsc.flat
+Compiling xml file C:\Users\pavillion\Downloads\airdrop\android\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\mipmap-anydpi-v26_ic_launcher_round.xml.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-az\values-az.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-az_values-az.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-h720dp-v13\values-h720dp-v13.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-h720dp-v13_values-h720dp-v13.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-v17\values-v17.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-v17_values-v17.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-am\values-am.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-am_values-am.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-nb\values-nb.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-nb_values-nb.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-bg\values-bg.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-bg_values-bg.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-en-rGB\values-en-rGB.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-en-rGB_values-en-rGB.arsc.flat
+AAPT2 aapt2-8.2.0-10154469-windows Daemon #0: starting
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-h360dp-land-v13\values-h360dp-land-v13.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-h360dp-land-v13_values-h360dp-land-v13.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-lv\values-lv.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-lv_values-lv.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-en-rIN\values-en-rIN.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-en-rIN_values-en-rIN.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-ar\values-ar.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-ar_values-ar.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-hdpi-v4\values-hdpi-v4.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-hdpi-v4_values-hdpi-v4.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-v24\values-v24.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-v24_values-v24.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-iw\values-iw.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-iw_values-iw.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-lt\values-lt.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-lt_values-lt.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-bs\values-bs.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-bs_values-bs.arsc.flat
+Compiling xml file C:\Users\pavillion\Downloads\airdrop\android\app\src\main\res\mipmap-anydpi-v26\ic_launcher.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\mipmap-anydpi-v26_ic_launcher.xml.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-el\values-el.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-el_values-el.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-sr\values-sr.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-sr_values-sr.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-bn\values-bn.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-bn_values-bn.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-ms\values-ms.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-ms_values-ms.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-zu\values-zu.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-zu_values-zu.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-km\values-km.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-km_values-km.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-pt-rPT\values-pt-rPT.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-pt-rPT_values-pt-rPT.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-mr\values-mr.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-mr_values-mr.arsc.flat
+AAPT2 aapt2-8.2.0-10154469-windows Daemon #1: starting
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-te\values-te.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-te_values-te.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-ne\values-ne.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-ne_values-ne.arsc.flat
+Compiling xml file C:\Users\pavillion\Downloads\airdrop\android\app\src\main\res\xml\backup_rules.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\xml_backup_rules.xml.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-kk\values-kk.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-kk_values-kk.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-v31\values-v31.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-v31_values-v31.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-en-rCA\values-en-rCA.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-en-rCA_values-en-rCA.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-w600dp-land-v13\values-w600dp-land-v13.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-w600dp-land-v13_values-w600dp-land-v13.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-h550dp-port-v13\values-h550dp-port-v13.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-h550dp-port-v13_values-h550dp-port-v13.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-or\values-or.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-or_values-or.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-zh-rTW\values-zh-rTW.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-zh-rTW_values-zh-rTW.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-night-v8\values-night-v8.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-night-v8_values-night-v8.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-land\values-land.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-land_values-land.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-kn\values-kn.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-kn_values-kn.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-fa\values-fa.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-fa_values-fa.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-small-v4\values-small-v4.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-small-v4_values-small-v4.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-th\values-th.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-th_values-th.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-sv\values-sv.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-sv_values-sv.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-gl\values-gl.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-gl_values-gl.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-tl\values-tl.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-tl_values-tl.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-ldrtl-v17\values-ldrtl-v17.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-ldrtl-v17_values-ldrtl-v17.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-da\values-da.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-da_values-da.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-uk\values-uk.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-uk_values-uk.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-my\values-my.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-my_values-my.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-xlarge-v4\values-xlarge-v4.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-xlarge-v4_values-xlarge-v4.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-ur\values-ur.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-ur_values-ur.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-mk\values-mk.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-mk_values-mk.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-nl\values-nl.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-nl_values-nl.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-es\values-es.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-es_values-es.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-et\values-et.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-et_values-et.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-eu\values-eu.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-eu_values-eu.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-fi\values-fi.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-fi_values-fi.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-b+es+419\values-b+es+419.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-b+es+419_values-b+es+419.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-zh-rCN\values-zh-rCN.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-zh-rCN_values-zh-rCN.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-en-rXC\values-en-rXC.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-en-rXC_values-en-rXC.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-pa\values-pa.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-pa_values-pa.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-gu\values-gu.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-gu_values-gu.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-pl\values-pl.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-pl_values-pl.arsc.flat
+Android resource compilation failed:
+process = AAPT2 aapt2-8.2.0-10154469-windows Daemon #0:
+command = C:\Users\pavillion\.gradle\caches\9.0-milestone-1\transforms\574c6b8032839b6cdc9841b483336717\transformed\aapt2-8.2.0-10154469-windows\aapt2.exe compile --legacy \
+        -o \
+        C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release \
+        C:\Users\pavillion\Downloads\airdrop\android\app\src\main\res\drawable\ic_localdrop.png \
+        --source-path \
+        com.example.airdrop.app-main-55:/drawable/ic_localdrop.png
+Android resource compilation failed:
+process = AAPT2 aapt2-8.2.0-10154469-windows Daemon #1:
+command = C:\Users\pavillion\.gradle\caches\9.0-milestone-1\transforms\574c6b8032839b6cdc9841b483336717\transformed\aapt2-8.2.0-10154469-windows\aapt2.exe compile --legacy \
+        -o \
+        C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release \
+        C:\Users\pavillion\Downloads\airdrop\android\app\src\main\res\drawable\ic_stat_localdrop.png \
+        --source-path \
+        com.example.airdrop.app-main-55:/drawable/ic_stat_localdrop.png
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-ldltr-v21\values-ldltr-v21.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-ldltr-v21_values-ldltr-v21.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-as\values-as.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-as_values-as.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-v26\values-v26.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-v26_values-v26.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-ka\values-ka.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-ka_values-ka.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-ko\values-ko.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-ko_values-ko.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-tr\values-tr.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-tr_values-tr.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-ml\values-ml.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-ml_values-ml.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-vi\values-vi.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-vi_values-vi.arsc.flat
+Compiling XML table C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-fr\values-fr.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\values-fr_values-fr.arsc.flat
+Compiling xml file C:\Users\pavillion\Downloads\airdrop\android\app\src\main\res\xml\data_extraction_rules.xml to C:\Users\pavillion\Downloads\airdrop\android\app\build\intermediates\merged_res\release\xml_data_extraction_rules.xml.flat
+
+> Task :app:validateSigningRelease
+Caching disabled for task ':app:validateSigningRelease' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Task ':app:validateSigningRelease' is not up-to-date because:
+  No history is available.
+AAPT2 aapt2-8.2.0-10154469-windows Daemon #0: shutdown
+AAPT2 aapt2-8.2.0-10154469-windows Daemon #1: shutdown
+
+[Incubating] Problems report is available at: file:///C:/Users/pavillion/Downloads/airdrop/android/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.0-milestone-1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+25 actionable tasks: 3 executed, 22 up-to-date
+Watched directory hierarchies: [C:\Users\pavillion\Downloads\airdrop\android]
+
+STDERR:
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:mergeReleaseResources'.
+> Multiple task action failures occurred:
+   > A failure occurred while executing com.android.build.gradle.internal.res.Aapt2CompileRunnable
+      > Android resource compilation failed
+        ERROR: C:\Users\pavillion\Downloads\airdrop\android\app\src\main\res\drawable\ic_localdrop.png: AAPT: error: file failed to compile.
+            
+   > A failure occurred while executing com.android.build.gradle.internal.res.Aapt2CompileRunnable
+      > Android resource compilation failed
+        ERROR: C:\Users\pavillion\Downloads\airdrop\android\app\src\main\res\drawable\ic_stat_localdrop.png: AAPT: error: file failed to compile.
+            
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 3s

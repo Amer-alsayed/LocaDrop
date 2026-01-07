@@ -1,0 +1,29 @@
+# Android
+.gradle/
+.idea/
+build/
+app/build/
+local.properties
+*.iml
+*.log
+
+# Python / Windows
+__pycache__/
+*.py[cod]
+venv/
+.env
+windows/build/
+windows/dist/
+windows/build2/
+windows/dist2/
+windows/build3/
+windows/dist3/
+windows/build_final/
+windows/dist_final/
+*.spec
+*.exe
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
