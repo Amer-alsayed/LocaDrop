@@ -4,7 +4,7 @@
 
 LocalDrop is an open-source, high-speed file transfer solution designed to bridge the gap between Android and Windows ecosystems. Inspired by the simplicity of AirDrop, it provides a secure, private, and instantaneous way to share files, photos, videos, and clipboard content over your local network without the need for internet access or third-party servers.
 
-## 🚀 Key Features
+##  Key Features
 
 *   **⚡ Blazing Fast Speeds**: Transfer huge files in seconds using your local Wi-Fi network. No bandwidth caps, no compression.
 *   **🔒 Secure & Private**: All transfers happen directly between devices. Your data never leaves your local network, ensuring maximum privacy.
@@ -14,7 +14,7 @@ LocalDrop is an open-source, high-speed file transfer solution designed to bridg
 *   **📋 Clipboard Sync**: Instantly copy text on your phone and paste it on your PC (and vice versa).
 *   **🛠️ Zero Configuration**: Auto-discovery protocols mean no IP addresses to type, no pairing codes to remember. Just open and share.
 
-## 📥 Downloads
+##  Downloads
 
 Get the latest release for your platform:
 
@@ -33,7 +33,7 @@ Get the latest release for your platform:
 1.  Download and install the `AirDrop_Android.apk` on your device.
 2.  Grant the necessary permissions (Storage, Location/Network for discovery) to ensure seamless operation.
 
-## 💻 Development
+##  Development
 
 LocalDrop is proudly open-source. We welcome contributions!
 
