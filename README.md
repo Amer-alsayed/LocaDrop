@@ -1,6 +1,6 @@
 # LocalDrop
 
-A cross-platform file transfer application that facilitates seamless sharing between Android and Windows devices, similar to AirDrop.
+LocalDrop is a seamless cross-platform file transfer tool that enables instant sharing of files, photos, and videos between Android and Windows devices, serving as an open-source alternative to AirDrop.
 
 ## Features
 
