@@ -6,6 +6,11 @@ import time
 import struct
 from dataclasses import dataclass
 
+try:
+    import netifaces
+except ImportError:
+    netifaces = None
+
 # Configuration
 BROADCAST_PORT = 45454
 TRANSFER_PORT = 45455
@@ -59,7 +64,22 @@ class NetworkManager:
         
         while self.running:
             try:
+                # 1. Send to global broadcast (keeping it for good measure)
                 self.udp_sock.sendto(message, ('<broadcast>', BROADCAST_PORT))
+
+                # 2. Send to all interface broadcasts
+                if netifaces:
+                    for iface in netifaces.interfaces():
+                        try:
+                            addrs = netifaces.ifaddresses(iface)
+                            if netifaces.AF_INET in addrs:
+                                for addr in addrs[netifaces.AF_INET]:
+                                    broadcast = addr.get('broadcast')
+                                    if broadcast:
+                                        self.udp_sock.sendto(message, (broadcast, BROADCAST_PORT))
+                        except Exception:
+                            pass
+
                 time.sleep(1)
             except Exception as e:
                 # print(f"Broadcast error: {e}")
