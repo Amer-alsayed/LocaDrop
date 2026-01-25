@@ -2,11 +2,19 @@ import sys
 import subprocess
 
 def install_dependencies():
-    try:
-        import customtkinter
-    except ImportError:
-        print("Installing dependencies...")
-        subprocess.check_call([sys.executable, "-m", "pip", "install", "customtkinter"])
+    required = ["customtkinter", "netifaces"]
+    installed_any = False
+
+    for package in required:
+        try:
+            __import__(package)
+        except ImportError:
+            print(f"Installing {package}...")
+            subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+            installed_any = True
+
+    if installed_any:
+        print("Dependencies installed.")
 
 if __name__ == "__main__":
     install_dependencies()
