@@ -264,6 +264,9 @@ object NetworkManager {
 
     private suspend fun broadcastPresence() {
         val message = gson.toJson(DiscoveryInfo(deviceName, "android")).toByteArray()
+        var broadcastLoopCount = 0
+        var cachedInterfaces: List<java.net.NetworkInterface> = emptyList()
+
         try {
             broadcastSocket = DatagramSocket()
             broadcastSocket?.broadcast = true
@@ -273,9 +276,12 @@ object NetworkManager {
                     val globalPacket = DatagramPacket(message, message.size, InetAddress.getByName("255.255.255.255"), BROADCAST_PORT)
                     broadcastSocket?.send(globalPacket)
                     
-                    val interfaces = java.net.NetworkInterface.getNetworkInterfaces()
-                    while (interfaces.hasMoreElements()) {
-                        val networkInterface = interfaces.nextElement()
+                    if (broadcastLoopCount % 30 == 0) {
+                        cachedInterfaces = java.util.Collections.list(java.net.NetworkInterface.getNetworkInterfaces())
+                    }
+                    broadcastLoopCount++
+
+                    for (networkInterface in cachedInterfaces) {
                         if (networkInterface.isLoopback || !networkInterface.isUp) continue
                         
                         for (interfaceAddress in networkInterface.interfaceAddresses) {
