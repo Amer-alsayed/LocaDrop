@@ -769,18 +769,21 @@ object NetworkManager {
     }
 
     // Blocking version for sequential multi-file sending
-    fun sendFileBlocking(ip: String, uri: Uri, remoteFilename: String? = null, groupId: String? = null, groupSize: Long? = null) {
+    fun sendFileBlocking(ip: String, uri: Uri, remoteFilename: String? = null, groupId: String? = null, groupSize: Long? = null, knownSize: Long? = null) {
         try {
             _transferStatus.value = "Preparing..."
             var filename = remoteFilename ?: "unknown"
-            var size = 0L
-            appContext.contentResolver.query(uri, null, null, null, null)?.use {
-                if (it.moveToFirst()) {
-                    val n = it.getColumnIndex(MediaStore.MediaColumns.DISPLAY_NAME)
-                    if (filename == "unknown" && n !=-1) filename = it.getString(n)
-                    val s = it.getColumnIndex(MediaStore.MediaColumns.SIZE)
-                    // REMOVED unconditional overwrite: if (n != -1) filename = it.getString(n)
-                    if (s != -1) size = it.getLong(s)
+            var size = knownSize ?: 0L
+
+            if (size == 0L || filename == "unknown") {
+                appContext.contentResolver.query(uri, null, null, null, null)?.use {
+                    if (it.moveToFirst()) {
+                        val n = it.getColumnIndex(MediaStore.MediaColumns.DISPLAY_NAME)
+                        if (filename == "unknown" && n !=-1) filename = it.getString(n)
+                        val s = it.getColumnIndex(MediaStore.MediaColumns.SIZE)
+                        // REMOVED unconditional overwrite: if (n != -1) filename = it.getString(n)
+                        if (s != -1) size = it.getLong(s)
+                    }
                 }
             }
             

@@ -59,13 +59,22 @@ class MainActivity : ComponentActivity() {
                     return@Thread
                 }
                 
-                NetworkManager.setStatus("Calculating size...")
-                val totalSize = calculateFolderSize(folder)
-                
-                NetworkManager.startBatch(totalSize)
-                
+                NetworkManager.setStatus("Scanning folder...")
                 val folderName = folder.name ?: "Folder"
-                sendFolderRecursively(ip, folder, folderName)
+                
+                val rootNode = DocumentFileNode(folder)
+                val scanResult = FolderScanner.scan(rootNode, folderName)
+                
+                NetworkManager.startBatch(scanResult.totalSize)
+
+                for (file in scanResult.files) {
+                    NetworkManager.sendFileBlocking(
+                        ip,
+                        file.uri,
+                        file.relativePath,
+                        knownSize = file.size
+                    )
+                }
                 
                 NetworkManager.endBatch()
                 NetworkManager.setStatus("Folder Sent!")
@@ -76,32 +85,6 @@ class MainActivity : ComponentActivity() {
                 NetworkManager.endBatch()
             }
         }.start()
-    }
-
-
-    private fun sendFolderRecursively(ip: String, folder: DocumentFile, parentPath: String) {
-        val files = folder.listFiles()
-        for (file in files) {
-            if (file.isDirectory) {
-                sendFolderRecursively(ip, file, "$parentPath/${file.name}")
-            } else {
-                val remoteName = "$parentPath/${file.name}"
-                NetworkManager.sendFileBlocking(ip, file.uri, remoteName)
-            }
-        }
-    }
-
-    private fun calculateFolderSize(folder: DocumentFile): Long {
-        var size = 0L
-        val files = folder.listFiles()
-        for (file in files) {
-            if (file.isDirectory) {
-                size += calculateFolderSize(file)
-            } else {
-                size += file.length()
-            }
-        }
-        return size
     }
     
     private val permissionLauncher = registerForActivityResult(ActivityResultContracts.RequestPermission()) {
